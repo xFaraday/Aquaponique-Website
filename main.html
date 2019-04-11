@@ -1,0 +1,128 @@
+	<html>
+	<head>
+		<title>plants r kewl</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+		<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+	</head>
+
+	<style>
+		nav {
+			background-color:#000033;
+
+		}
+
+		body {
+			background-color:#243B4A;
+		}
+
+		h1 {
+			text-align: center;
+			font-size: 2em;
+		}
+
+		.card {
+			margin:4em;
+			background-color:#2D5D7B;
+		}
+
+		.card-deck {
+			display: flex;
+			justify-content: center;
+			
+		}
+		
+		.list-group-item {
+			background-color:#0C0032;
+		}
+
+		#sensordownload {
+			margin: 1em;
+
+		}	
+		
+		#control {
+			width: 100%;
+		}
+
+		.card-body {
+			padding: 10px;
+		}
+
+		.card-title {
+			color:#0275d8;
+		}
+
+		.card-header{
+			background-color:#2D5D7B;
+			
+		}
+
+		button {
+			
+
+		}
+	</style>
+
+
+	<body>
+		<nav class="navbar navbar-expand-lg fixed-top">
+			<a class="navbar-brand" href="#">Aquaponique</a>
+			<div class="collapse navbar-collapse" id="navbarToggler">
+				<ul class="navbar-nav mr-auto mt-2 mt-lg-o">
+					<li class="nav-item active">
+						<a class="nav-link" href="support.html">Support</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="card">
+						<div class="card-body">
+							<div class="card-header">
+								<h1 class="card-title">Controls</h1>
+							</div>
+							<ul class="list-group list-group-flush">
+								<li class="list-group-item">
+								<button type="button" class="btn btn-primary" id="control">test</button>
+								</li>
+								<li class="list-group-item">
+								<button type="button" class="btn btn-primary" id="control">test</button>
+								</li>
+								<li class="list-group-item">
+								<button type="button" class="btn btn-primary" id="control">test</button>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+							
+				<div class="col-sm-6">
+					<div class="card" id="sensor">
+						<div class="card-body">
+							<div class="card-header">
+								<h1 class="card-title">Sensor Status</h1>
+							</div>
+							<p class="card-text">
+							<br>
+							PH: EXAMPLE
+							<br>
+							TEMP: EXAMPLE
+							</p>
+							<button type="button" class="btn btn-primary" id ="sensordownload">test</button>
+						</div>
+					</div>		
+				</div>
+			</div>
+		</div>
+
+
+	</body>
+
+
+
+</html>
